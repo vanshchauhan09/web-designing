@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>College Timetable</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 30px;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 12px 8px;
+            text-align: center;
+        }
+
+        th {
+            background-color: lightblue;
+        }
+
+        .break {
+            background-color: lightyellow;
+            font-weight: bold;
+        }
+
+        .day {
+            font-weight: bold;
+            background-color: #eeeeee;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>College Timetable - CSE Department</h2>
+
+    <table>
+        <tr>
+            <th>Day / Time</th>
+            <th>9:00 - 10:00</th>
+            <th>10:00 - 11:00</th>
+            <th>11:00 - 12:00</th>
+            <th>12:00 - 1:00</th>
+            <th>1:00 - 2:00</th>
+            <th>2:00 - 3:00</th>
+            <th>3:00 - 4:00</th>
+        </tr>
+
+        <tr>
+            <td class="day">Monday</td>
+            <td>Mathematics</td>
+            <td>English</td>
+            <td>Physics</td>
+            <td class="break">Break</td>
+            <td>Computer Lab</td>
+            <td colspan="2">Sports</td>
+        </tr>
+
+        <tr>
+            <td class="day">Tuesday</td>
+            <td colspan="2">C Programming</td>
+            <td>Electronics</td>
+            <td class="break">Break</td>
+            <td>Electronics Lab</td>
+            <td colspan="2">Library</td>
+        </tr>
+
+        <tr>
+            <td class="day">Wednesday</td>
+            <td>Mathematics</td>
+            <td>English</td>
+            <td>Physics</td>
+            <td class="break">Break</td>
+            <td>Computer Networks</td>
+            <td colspan="2">
+                <b>Lab Details</b><br>
+                Batch A: DBMS Lab<br>
+                Batch B: OS Lab
+            </td>
+        </tr>
+
+        <tr>
+            <td class="day">Thursday</td>
+            <td colspan="2">Workshop</td>
+            <td>Physics</td>
+            <td class="break">Break</td>
+            <td>Mathematics</td>
+            <td>English</td>
+            <td>Seminar</td>
+        </tr>
+
+        <tr>
+            <td class="day">Friday</td>
+            <td>Computer Networks</td>
+            <td>English</td>
+            <td>Physics</td>
+            <td class="break">Break</td>
+            <td colspan="3">Project Work</td>
+        </tr>
+    </table>
+
+</body>
+</html>
